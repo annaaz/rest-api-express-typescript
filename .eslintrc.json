@@ -14,7 +14,7 @@
         "project": ["tsconfig.json"]
     },
     "plugins": ["@typescript-eslint"],
-    "ignorePatterns": ["**/build/*,**/node_modules/*,**/public/*"],
+    "ignorePatterns": ["**/build/*,**/node_modules/*,**/public/*,**/tsconfig.json"],
     "rules": {
         "@typescript-eslint/member-delimiter-style": [
             "warn",
