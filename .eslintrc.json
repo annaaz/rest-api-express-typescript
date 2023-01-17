@@ -11,8 +11,7 @@
     "parserOptions": {
         "ecmaVersion": "latest",
         "sourceType": "module",
-        "project": ["tsconfig.json"],
-        "createDefaultProgram": true
+        "project": ["tsconfig.json"]
     },
     "plugins": ["@typescript-eslint"],
     "ignorePatterns": ["**/build/*,**/node_modules/*,**/public/*,**/tsconfig.json"],
