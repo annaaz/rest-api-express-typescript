@@ -1,5 +1,4 @@
 import ProductModel from '../model/product.model'
-import productModel from '../model/product.model'
 import { logger } from '../utils/logger'
 import ProductType from '../types/product.type'
 
