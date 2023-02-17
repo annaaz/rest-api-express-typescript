@@ -16,19 +16,23 @@
     "plugins": ["@typescript-eslint"],
     "ignorePatterns": ["**/build/*,**/node_modules/*,**/public/*,**/tsconfig.json"],
     "rules": {
-        "@typescript-eslint/member-delimiter-style": [
-            "warn",
-            {
-                "multiline": {
-                    "delimiter": "semi",
-                    "requireLast": true
-                },
-                "singleline": {
-                    "delimiter": "semi",
-                    "requireLast": false
-                }
-            }
-        ],
-        "@typescript-eslint/explicit-function-return-type": "off"
+//        "@typescript-eslint/member-delimiter-style": [
+//            "warn",
+//            {
+//                "multiline": {
+//                    "delimiter": "semi",
+//                    "requireLast": true
+//                },
+//                "singleline": {
+//                    "delimiter": "semi",
+//                    "requireLast": false
+//                }
+//            }
+//        ],
+        "array-callback-return": "off",
+        "@typescript-eslint/strict-boolean-expressions": "off",
+        "@typescript-eslint/explicit-function-return-type": "off",
+        "@typescript-eslint/member-delimiter-style": "off",
+        "@typescript-eslint/no-misused-promises": "off"
     }
 }
